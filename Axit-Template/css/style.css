@@ -1,0 +1,460 @@
+/*----------------- Reset Style ---------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+/*----------------- Global Style ---------------*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.overflow{
+    background-color: rgba(26, 26, 26, 0.759);
+    color: white;
+    height: 100%;
+}
+.bgcolor1{
+    background-color: rgb(241, 241, 241);
+}
+.bgcolor2{
+    background-color: rgb(222, 159, 0);
+}
+.bgcolor3{
+    background-color: rgb(47, 47, 47);
+}
+.inline-block{
+    display: inline-block;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.margin-bottom{
+    margin-bottom: 100px;
+}
+.padding-top{
+    padding-top: 100px;
+}
+.padding-botom{
+    padding-bottom: 100px;
+}
+.space-left{
+    margin-left: 10%;
+}
+.space-right{
+    margin-right: 9%;
+}
+.padding-element{
+    padding: 40% 0;
+}
+.spacing-rightlift-form{
+    margin: 0 10%;
+}
+.text-color1{
+    color: rgb(173, 173, 173);
+}
+.text-color2{
+    color: rgb(247, 247, 247);
+}
+.text-color3{
+    color: rgb(48, 47, 47);
+}
+.font-wight{
+    font-weight: 600;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.vertical-top{
+    vertical-align: top;
+}
+/*----------------- Custom Style ---------------*/
+.nav1{
+    background-color: black;
+    height: 7%;
+}
+.nav1 h3{
+    width: 10%;
+    font-size: 25px;
+    padding-top: .7%;
+}
+.nav1 ul{
+    list-style: none;
+    width: 30%;
+    margin-left: 41%;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav1 li{
+    margin-left: 4%;
+}
+.nav1 li:hover{
+    color: rgb(222, 159, 0);
+    cursor: pointer;
+}
+/*--------------------section1-------------------------*/
+.section1{
+    background-image: url(../css/images/home.jpg);
+    background-position-y: -100px;
+}
+.section1 .content-left{
+    width: 40%;
+    padding-bottom: 10%;
+}
+.section1 .content-left h2{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+.section1 .content-left h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 4%;
+    color: rgb(226, 224, 224);
+}
+.section1 .content-left hr{
+    width: 10%;
+    margin-bottom: 4%;
+}
+.section1 .content-left p{
+    color: rgb(176, 176, 176);
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.section1 .content-left button{
+    width: 25%;
+    height: 35px;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+}
+.section1 .content-left button:hover{
+    background-color: rgb(222, 159, 0);
+    cursor: pointer;
+}
+.section1 form{
+    width: 30%;
+    margin-left: 11%;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 8px;
+}
+.section1 form span{
+    font-weight: 600;
+}
+.section1 form h3{
+    color: black;
+    text-align: center;
+    background-color: rgb(222, 220, 220);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.section1 .card input{
+    width: 100%;
+    padding: 6px 12px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid;
+}
+.section1 form button{
+    width: 100%;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px 0;
+    border: none;
+}
+/*------------------------nav2-------------------------*/
+.nav2{
+    padding: 1% 0;
+}
+.nav2 .content-left{
+    width: 30%;
+}
+.nav2 p{
+    margin-top: 1%;
+    line-height: 20px;
+}
+.nav2 .content-right{
+    width:70%;
+    text-align: right;
+    font-size: 45px;
+    padding-top: .7%;
+}
+.nav2 li{
+    margin-left: 4%;
+}
+/*-------------------line---------------------*/
+.line-body{
+    height: 3px;
+    background-color: rgb(112, 112, 112);
+}
+/*--------------------section2----------------------*/
+.section2 .content-left{
+    width: 8%;
+}
+.section2 li{
+    margin-bottom: 2%;
+}
+.section2 .content-center{
+    width: 40%;
+    margin: 0 8%;
+}
+.section2 h3{
+    margin-bottom: 8%;
+}
+.section2 .content-center p{
+    margin-bottom: 5%;
+}
+.section2 button{
+    width: 35%;
+    height: 35px;
+    border: none;
+    margin-top: 2%;
+}
+.section2 .image{
+    width: 30%;
+    margin-top: 6%;
+    position: relative;
+}
+.section2 img{
+    display: block;
+    width:100%;
+}
+.section2 .image::after {
+      content: "";
+      position: absolute;
+      top: 95%;
+      left: 0;
+      right: 0;
+      height: 100%;
+      background: url("../css/images/Homes.jpg") no-repeat center top;
+      background-size: contain;
+      transform: scaley(-1);
+      filter: blur(1px);
+      mask-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+      -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    }
+/*-------------------section3----------------------*/
+.section3 .image{
+    width: 40%;
+    margin-top: 13%;
+    display: inline-block;
+    box-shadow: 0 0 15px 3px rgb(163, 163, 163);
+}
+.section3 img{
+    width: 100%;
+    display: block;
+}
+.section3 .content-right2{
+    width: 40%;
+    margin-left: 20%;
+    padding: 11% 0;
+}
+.section3 .line{
+    height: 2px;
+    width: 20%;
+    margin: 5% 0;
+}
+.section3 .definition1{
+    margin: 5% 0;
+}
+.section3 .definition1-span , .section3 .definition2-span{
+    width: 8%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid;
+    color: rgb(222, 159, 0);
+    padding-top: 1.7%;
+    margin: 2% 0;
+    margin-right: 2%;
+}
+.section3 .definition1-body , .section3 .definition2-body{
+    width: 85%;
+}
+
+.section3 h3{
+    color: rgb(75, 75, 75);
+    margin-bottom: 2%;
+}
+/*--------------------section4------------------------*/
+.section4 .line , .section5 .line , .section6 .line , .section7 .line{
+    width: 5%;
+    margin: 2% 0;
+    margin-left: 47.5%;
+    height: 2px;
+}
+.section4 p , .section5 p{
+    margin-bottom: 8%;
+}
+.section4 .box{
+    width: 30%;
+    margin: 0 1.5%;
+}
+.section4 span , .section5 .box span{
+    font-size: 30px;
+    border: 3px solid;
+    padding: 1%;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding-top: 5%;
+    color: rgb(222, 159, 0);;
+}
+.section4 h3 , .section5 .box h3{
+    margin: 6% 0;
+}/*-------------------section5------------------------*/
+.section5 .card-both{
+    vertical-align: bottom;
+    margin: 0 1.5%;
+    width: 30%;
+    background-color: white;
+}
+.section5 .card-both h3 , .section5 .card-center h3{
+    padding: 3% 0;;
+    color: white;
+    margin-bottom: .5%;
+}
+.section5 .card-both .card-price , .section5 .card-center .card-price{
+    color: white;
+    padding-top: 3%;
+    padding-bottom: .1%;
+    font-size: 20px;
+}
+.section5 .card-center .card-price{
+    padding-top: 0%;
+}
+.section5 .card-both .card-price h1{
+    padding: 5% 0;
+}
+.section5 .card-both span , .section5 .card-center span{
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+.section5 .card-both .card-price h1 , .section5 .card-center .card-price h1{
+    margin-bottom: 2%;
+    color: white;
+}
+.section5 .card-both .card-price p , .section5 .card-center .card-price p{
+    font-style: italic;
+    font-size: 16px;
+    margin: 3% 0;
+}
+.section5 .card-both p , .section5 .card-center p{
+    margin: 4% 0;
+}
+.section5 .card-both .line1{
+    height: 6px;
+}
+.section5 .card-center{
+    margin: 0 1.5%;
+    width: 30%;
+    background-color: white;
+}
+.section5 .card-center .line2{
+    padding: 4% 0;
+    color: white;
+}
+.section5 .card-center .span1{
+    font-size: 110px;
+}/*-----------------section6------------------------*/
+.section6 , .section7{
+    text-align: center;
+}
+.section6 .card{
+    width: 30%;
+    margin: 0 1.5%;
+    margin-top: 4%;
+    text-align: left;
+    position: relative;
+}
+.section6 .card::after {
+  content: "";
+  position: absolute;
+  bottom: 28%;
+  left: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(241, 241, 241) transparent transparent transparent;
+}
+.section6 .card-body{
+    padding: 2% 4%;
+}
+.section6 .profile{
+    margin-top: 5%;
+}
+.section6 .image{
+    width: 20%;
+    margin-right: 3%;
+}
+.section6 img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.section6 .profile-body{
+    vertical-align: top;
+    margin-top: 3%;
+}
+.section6 .profile-body p{
+    margin-top: 3%;
+}/*---------------.section7------------------------*/
+.section7 form{
+    margin-top: 4%;
+}
+.section7 .form1{
+    width: 47.5%;
+    margin-right: 5%;
+}
+.section7 input , .section7 textarea{
+    width: 100%;
+    padding: 2%;
+    border: none;
+    border-bottom: 2px solid rgb(129, 129, 129);
+    margin: 2% 0;
+}
+.section7 .form2{
+    width: 47.5%;
+}
+.section7 button{
+    color:white;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4%;
+}/*--------------------footer-----------------------*/
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 1% 0;
+}
+footer li{
+    font-size: 20px;
+    margin: 0% 1%;
+}
+footer p{
+    margin-top: 1%;
+}
