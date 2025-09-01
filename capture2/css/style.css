@@ -1,0 +1,107 @@
+/* reset style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*----------------global style-----------------*/
+.container{
+  width: 90%;
+  margin: 0% auto;
+}
+.over-flow{
+  background-color: rgba(61, 61, 61, 0.484);
+}
+ul{
+  list-style: none;
+}
+.display-flex{
+  display: flex;
+}
+.justfiy-content-space-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+.bgcolor1{
+  background-color: lightgray;
+}
+.postion-relative{
+  position: relative;
+}
+.postion-absolute{
+  position: absolute;
+}
+.text-color1{
+  color: rgb(98, 98, 98);
+}
+.text-color2{
+  color: rgb(39, 128, 121);
+}
+.font-wight{
+  font-weight: 600;
+}
+/*----------------custom style-----------------*/
+.section1 .box{
+  background-color: white;
+  width: 30%;
+  padding-top: 1%;
+  box-shadow: 0 0 5px 2px rgb(154, 154, 154);
+  margin: 0 2%;
+}
+.section1 .icon{
+  width: 30%;
+  margin-right: 3%;
+  margin-left: 2%;
+  font-size: 14px;
+}
+.section1 .icon p{
+  margin-left: 4%;
+}
+.section1 .image{
+  margin-top: 3%;
+}
+.section1 img{
+  width: 100%;
+  display: block;
+}
+.section1 .content-overlow{
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  padding-top: 60%;
+  padding-left: 10%;
+  color: aliceblue;
+  opacity: 0;
+}
+.section1 .content-overlow:hover{
+  opacity: 1;
+}
+.section1 .content-body{
+  padding: 2%;
+}
+.section1 .content-body h4{
+  margin-top: 5%;
+  font-size: 18px;
+}
+.section1 .line{
+  height: 2px;
+  background-color: black;
+  width: 10%;
+  margin: 3% 0;
+}
+.section1 .content-body p{
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+.section1 .image2{
+  width: 25%;
+  top:58%;
+  right: 10%;
+}
+.section1 .image2 img{
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
