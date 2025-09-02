@@ -1,0 +1,33 @@
+/* reset style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*----------------global style-----------------*/
+
+/*----------------custom style-----------------*/
+.section1{
+  background-image: url(../css/images/street.jpg);
+  height: 50vh;
+  background-size: 30% 100%;
+}
+.section1 .image{
+  width: 20%;
+  padding-top: 10%;
+  animation-name: hero;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.section1 .image img{
+  width: 100%;
+}
+@keyframes hero{
+  from{
+    transform: translateX(400%);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
