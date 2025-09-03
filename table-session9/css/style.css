@@ -1,0 +1,46 @@
+/* reset style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*----------------global style-----------------*/
+.text-align-center{
+  text-align: center;
+}
+.text-align-left{
+  text-align: left;
+}
+/*----------------custom style-----------------*/
+.section1{
+  height: 50vh;
+}
+.section1 h1{
+  margin: 1% 0;
+}
+.section1 table{
+  width: 90%;
+  padding: 1px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+th , td{
+  padding: .5%;
+}
+th{
+  background-color: rgb(87, 147, 141);
+  color: white;
+  font-weight: 400;
+}
+tr:nth-child(odd){
+  background-color: rgb(221, 221, 221);
+}
+table td:nth-child(1){
+  font-weight: 600;
+}
+table td:nth-child(1) ~ td{
+  border-bottom: 3px solid rgb(87, 147, 141);
+  text-align: center;
+  color: rgb(78, 78, 78);
+}
