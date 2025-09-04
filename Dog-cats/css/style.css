@@ -1,0 +1,520 @@
+/* reset style */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*----------------global style-----------------*/
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.overlay{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.451),rgba(155, 155, 189, 0.067));
+  height: 100%;
+  width: 100%;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.display-flex{
+  display: flex;
+}
+.justfiy-content-space-between{
+  justify-content: space-between;
+}
+.justfiy-content-space-around{
+  justify-content: space-around;
+}
+.justfiy-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+.font-wight{
+  font-weight: 600;
+}
+.text-color1{
+  color: lightgrey
+}
+.text-color2{
+  color: rgba(118, 118, 144, 0.803);
+}
+.text-color3{
+  color: rgb(0, 0, 25);
+}
+.text-color4{
+  color:rgb(33, 33, 67);
+}
+img{
+  width: 100%;
+}
+.container-head{
+  width: 40%;
+}
+.container-head .image{
+  width: 6%;
+  margin-right: 2%;
+  
+}
+.container-head h2{
+  font-size: 30px;
+}
+hr{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.content{
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 2%;
+}
+.postion-relative{
+  position: relative;
+}
+.postion-absolute{
+  position: absolute;
+}
+.padding-top-bottom{
+  padding: 5% 0;
+}
+.padding-top{
+  padding-top: 5%;
+}
+.padding-bottom{
+  padding-bottom: 5%;
+}
+.text-align-center{
+  text-align: center;
+}
+/*----------------custom style-----------------*/
+.section1{
+  background-image: url(../css/images/dog.png);
+  height: 100vh;
+  color: white;
+  background-size:140% 110%;
+}
+.section1 .content-body-top{
+  padding: 2%;
+}
+.section1 .content-body-top ul{
+  width: 50%;
+}
+.section1 .content-body-top ul li{
+  margin-left: 5%;
+  white-space:nowrap ;
+}
+.section1 .content-body-top ul .li1{
+  width: 23%;
+}
+.section1 .content-body-top ul .li:hover{
+  border-bottom: 2px solid white;
+}
+.section1 .content-body-top ul a{
+  font-size: 15px;
+}
+.section1 .content-body-top .span1{
+  display: inline-block;
+  width: 21%;
+}
+.section1 .content-body-top .span3{
+  margin-right: 2%;
+}
+.section1 .span2{
+  margin-left: 4%;
+  font-size: 16px;
+}
+.section1 .content-body-top button{
+  padding: 1% 2%;
+  border-radius: 20px;
+  margin-right: 2%;
+  border: none;
+}
+.content-body-top .icon-setting{
+       display: none;
+}
+.section1 .content-body-bottom{
+  margin-top: 10%;
+  width: 45%;
+}
+.section1 .content-body-bottom h1{
+  font-size: 35px;
+}
+.section1 .content-body-bottom p{
+  margin: 5% 0;
+  line-height: 22px;
+}
+.section1 .content-body-bottom button{
+  background-color: inherit;
+  color: white;
+  border-radius: 20px;
+  padding: 1% 2%;
+  width: 25%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.section1 .content-body-bottom button p{
+  margin-right: 6%;
+}/*---------------section2--------------------*/
+.section2 .content{
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 2%;
+}
+.section2 .content-head p{
+  font-size: 30px;
+}
+.section2 .content .search{
+  background-color: rgb(229, 229, 229);
+  white-space: nowrap;
+  padding: 1%;
+  border-radius: 20px;
+}
+.section2 .content-nav ul{
+  flex-wrap: wrap;
+}
+.section2 .content input{
+  background-color: inherit;
+  padding: 1% 2%;
+  border: none;
+}
+.section2 .content-nav{
+  padding: 3% 0;
+}
+.section2 .content-nav li{
+  padding: 1% 2%;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.section2 .content-nav li:hover{
+  background-color: rgb(44, 44, 85);
+  color: white;
+}
+.section2 .content-nav .li1{
+  background-color: rgb(44, 44, 85);
+  color: white;
+}
+.section2 .image2{
+  width: 30%;
+}
+.section2 .image2 img{
+  border-radius: 8px;
+}
+.section2 .content-bottom p{
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 2%;
+}/*---------------section3--------------------*/
+.section3 .content-body{
+  flex-wrap: wrap;
+}
+.section3  img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.section3 .images-left{
+  flex-wrap: wrap;
+  width: 66.2%;
+}
+.section3 .image2 img{
+  object-fit: cover;
+}
+.section3 .images-right{
+  width: 33.2%;
+}
+.section3 .image2{
+  width: 49.5%;
+  height: 50%;
+}
+.section3 .image-space{
+  margin-top: 1%;
+}
+.section3 .image3{
+  height: 100%;
+}
+.section3 .image3 img{
+  object-fit: cover;
+}
+.section3 .content-body p{
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(75, 75, 75, 0.438);
+  color: white;
+  font-size: 32px;
+}
+.section3 .overlay{
+  top:3.9%;
+  width: 93%;
+  height: 92.3%;
+  border-radius: 10px;
+  text-align: center;
+}
+.section3 .overlay p{
+  margin-top: 35%;
+  color: white;
+  font-size: 30px;
+}
+.section3 .td3 .overlay{
+  top:2%;
+  height: 95.9%;
+}
+.section3 .td3 .overlay p{
+  margin-top: 65%;
+}/*---------------section4--------------------*/
+.section4 .content{
+  padding: 3% 2%;
+}
+.section4 .content-left{
+  width: 60%;
+}
+.section4 .content-left p{
+  padding: 1% 0;
+}
+.section4 .content-right{
+  flex-direction: column;
+  align-items: end;
+
+}
+.section4 .content-right .image1{
+  height: 80%;
+  width: 80%;
+}
+.section4 .content-right img{
+  height: 100%;
+}
+.section4 .content-right .image2{
+  height: 40%;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  left:0;
+  bottom: 0%;
+}/*---------------section5--------------------*/
+.section5 .content{
+  border: none;
+}
+.section5 .cards{
+  flex-wrap: wrap;
+}
+.section5 .card{
+  width: 23%;
+}
+.section5 .card img{
+  display: block;
+  margin-bottom: 10%;
+}
+.section5 .card p{
+  margin: 4% 0;
+  margin-bottom: 10%;
+}
+.section5 span{
+  font-size: 22px;
+  margin-right: 3%;
+}/*---------------section6--------------------*/
+.section6 .content-left{
+  width: 50%;
+}
+.section6 .content-left h1{
+  padding-bottom: 8%;
+  font-size: 32px;
+}
+.section6 .content-left p{
+  line-height: 22px;
+  padding-top: 2%;
+}
+.section6 .content-left h3{
+  font-size: 25px;
+  margin: 3% 0;
+}
+.section6 .content-left button{
+  padding: 2% 4%;
+  border:none;
+  background-color: rgb(14, 14, 45);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.section6 .content-right{
+  width: 45%;
+}
+.section6 .content-right .image{
+  height: 105%;
+}
+.section6 .content-right .image img{
+  height: 100%;
+  display: block;
+}
+.section6 .content-right span{
+  top: 0;
+  width: 100%;
+  height: 105%;
+  text-align: center;
+  font-size: 70px;
+  background-color: rgba(59, 59, 59, 0.622);
+  color: white;
+  padding-top: 31%;
+}/*---------------section7--------------------*/
+.section7{
+  background-color: rgb(14, 14, 45);
+  color: white;
+  padding-bottom: 5%;
+}
+.section7 .content{
+  padding: 0 2%;
+  border: none;
+  flex-wrap: wrap;
+}
+.section7 form{
+  padding: 2%;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+}
+.section7 .form-left , .section7 .form-right{
+  width: 45%;
+}
+.section7 p + input , .section7 label + input{
+  margin-top: 2%;
+  width: 100%;
+  padding: 4%;
+  border: 1px solid rgb(91, 91, 91);
+  border-radius: 5px;
+}
+.section7 label{
+  display: inline-block;
+  margin-top: 3%;
+}
+.section7 label + input{
+  padding: 2%;
+  margin-top:1%;
+}
+.section7 textarea{
+  width: 100%;
+  margin-top: 1%;
+}
+.section7 .check-box{
+  margin-top: 3%;
+}
+.section7 .check-box input{
+  margin-right: 1%;
+  width: 19px;
+  height: 19px;
+}
+.section7 .check-box label{
+  margin: 0;
+}
+.section7 button{
+  width: 100%;
+  background-color: rgb(14, 14, 45);
+  color: white;
+  padding: 2%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.section7 .check-box label{
+  color: rgb(106, 106, 145);
+}
+.section7 .details{
+  width: 50%;
+  padding-right: 1%;
+  padding-left: 5%;
+}
+.section7 .boxs{
+  flex-wrap: wrap;
+}
+.section7 .box{
+  width: 49%;
+  margin-top: 5%;
+}
+.section7 .box span{
+  font-size: 20px;
+}
+.section7 .box h3{
+  margin-top: 5%;
+}
+.section7 .box h6{
+  margin-top: 4%;
+  font-size: 15px;
+}
+.section7 .box p{
+  margin-top: 5%;
+  word-break: break-word;
+}/*---------------section8--------------------*/
+.section8{
+    background-color: rgb(14, 14, 45);
+    color: white;
+}
+.section8 .content-head{
+  flex-wrap: wrap;
+}
+.section8 .content{
+  border:none;
+}
+.section8 p{
+  margin-top: 1%;
+}
+.section8 .content-right{
+  width: 25%;
+}
+.section8 input , .section8 button{
+  padding: 2% 4%;
+  border-radius: 5px;
+}
+.section8 button{
+  background-color: white;
+}
+.section8 .content-bottom{
+  margin-top: 7%;
+  flex-wrap: wrap;
+}
+.section8 .box{
+  width: 100%;
+}
+.section8 .content-side{
+  width: 30%;
+}
+.section8 .content-side p{
+  margin-top: 2%;
+  line-height: 25px;
+}
+.section8 .span1{
+  margin-right: .5%;
+}
+.section8 .box-right{
+  width: 65%;
+  flex-wrap: wrap;
+}
+.section8 .box-right .box{
+  width: 20%;
+  padding: 1%;
+}
+.section8 .box-right .box p{
+  padding: 3% 0;
+}
+.section8 hr{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.section8 .content-foot{
+  flex-wrap: wrap;
+}
+.section8 .content-foot h6{
+  font-size: 14px;
+}
+.section8 .content-foot .icons{
+  width: 40%;
+  text-align: right;
+}
+.section8 .content-foot span{
+  font-size: 20px;
+  margin-left: 2%;
+}

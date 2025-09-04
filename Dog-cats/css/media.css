@@ -1,0 +1,160 @@
+@media (max-width : 576px) {
+    .display-none{
+        display: none;
+    }
+    .content{
+        border: none;
+    }
+    .container-head{
+        width: 60%;
+    }
+    .container-head .image{
+        width: 10%;
+    }
+    .padding-top-media{
+        padding-top: 4%;}
+    
+    /*-------------section1----------------*/
+    .section1{
+        height: 100vh;
+        width: 100vw;
+        background-size:190% 110%;
+    }
+    .section1 .content-body-top{
+        padding: 8% 0;
+    }
+    .section1 .content-body-top ul{
+        width: 60%;
+    }
+
+    .section1 .content-body-top ul .li1{
+        width: 60%;
+    }
+    .section1 .content-body-top .span1{
+        width: 30px;
+    }
+    .section1 .li1 .span1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-body-top .icon-setting{
+       display: inline-block;
+       font-size: 20px;
+       cursor: pointer;
+    }
+    .content-body-top ul .li , .content-body-top button{
+        display: none;
+    }
+    .section1 .content-body-bottom{
+        width: 70%;
+        margin-top: 30%;
+    }
+    .section1 .content-body-bottom h1{
+        font-size: 26px;
+    }
+    .section1 .content-body-bottom p{
+        margin: 10% 0;
+    }
+    .section1 .content-body-bottom button{
+        white-space: nowrap;
+        width: 60%;
+    }/*-------------section2---------------*/
+    .section2 .content{
+        border: none;
+    }
+    .section2 .content-head p{
+        font-size: 20px;
+    }
+    .section2 .content .search{
+        background-color: inherit;
+    }
+    .section2 input{
+        display: none;
+    }
+    .section2 .content-nav ul{
+        justify-content: space-between;
+    }
+    .section2 .images{
+        flex-wrap: wrap;
+    }
+    .section2 .image2{
+        width: 100%;
+    }/*-------------section3---------------*/
+    .section3-margin-top-media{
+        margin-top: 2%;
+    }
+    .section3 .images-left{
+        width: 100%;
+    }
+    .section3 .images-right{
+        width: 100%;
+        height: 130px;
+    }
+    .section3 .image3 img{
+        height: 100%;
+    }/*-------------section4---------------*/
+    .section4 .content-left{
+        width: 100%;
+    }/*-------------section5---------------*/
+    .section5 .card{
+        width: 48%;
+    }/*-------------section6---------------*/
+    .section6 .content-left{
+        width: 100%;
+    }
+    .section6 .content-left h1{
+        font-size: 26px;
+        border-bottom: 1px solid rgb(196, 196, 196);
+    }
+    .section6 .content-left p{
+        margin-top: 4%;
+    }
+    .section6 .content-left h3{
+        font-size: 24px;
+        margin:5% 0;
+        
+    }/*-------------section7---------------*/
+    .section7 form{
+        width: 100%;
+        order: 2;
+        margin-top: 7%;
+        padding: 4%;
+    }
+    .section7 .details{
+        width: 100%;
+        order: 1;
+    }/*-------------section8---------------*/
+    .section8 .content-right{
+        width: 100%;
+    }
+    .section8 .content-right input , .section8 .content-right button{
+        width: 100%;
+    }
+    .section8 .content-right input{
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+    .section8 .content-right button{
+        margin-bottom: 5%;
+    }
+    .section8 .content-side{
+        width: 100%;
+    }
+    .section8 .box-right{
+        width: 100%;
+    }
+    .section8 .box-right .box{
+        width: 50%;
+    }
+    .section8 .content-foot h6{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .section8 .content-foot .icons{
+        width: 100%;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 6%;
+    }
+}
