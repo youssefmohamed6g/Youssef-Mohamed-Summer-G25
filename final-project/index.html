@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final-project</title>
+    <link rel="icon" href="css/images/logo.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header" class="py-2">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-2 logo position-relative">
+                    <h1><a class="text-dark" href="index.html">Merto</a></h1>
+                    <span class="position-absolute shap-logo"></span>
+                </div>
+                <div class="col-6 content-body d-flex justify-content-around">
+                    <div class="content-body-left d-flex align-items-center me-4">
+                        <span class="telephone me-1"><i class="fa-solid fa-phone"></i></span>
+                        <p class="body-tel mb-0">Contact us 24/7<br><span class="fw-bold">(+92) 39427879</span></p>
+                    </div>
+                    <div class="content-body-right rounded bg-secondary-subtle p-1 d-flex"
+                        style="max-width: 400px; position: relative;">
+                        <div class="input-group flex-nowrap justify-content-between align-items-center">
+                            <div class="dorpdown">
+                                <div class="unique">
+                                    <button class="dropdown-toggle border-0 bg-secondary-subtle px-3"
+                                        data-bs-toggle="dropdown">All Categories</button>
+                                </div>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </div>
+                            <input type="text" id="searchInput" class="border-0 bg-secondary-subtle py-2 ms-3 input"
+                                placeholder="Search for products...">
+                            <button class="btn btn-dark rounded-1 py-2"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div id="popularBox" class="border rounded mt-2 p-3 bg-white shadow-sm d-none"
+                            style="position: absolute; width: 100%; z-index: 1000;">
+                            <h6 class="mb-2">Popular search</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-outline-secondary btn-sm">smartphone</button>
+                                <button class="btn btn-outline-secondary btn-sm">tablet</button>
+                                <button class="btn btn-outline-secondary btn-sm">controller</button>
+                                <button class="btn btn-outline-secondary btn-sm">furniture</button>
+                                <button class="btn btn-outline-secondary btn-sm">laptop</button>
+                                <button class="btn btn-outline-secondary btn-sm">playstation</button>
+                                <button class="btn btn-outline-secondary btn-sm">womens fashion</button>
+                                <button class="btn btn-outline-secondary btn-sm">home & decor</button>
+                                <button class="btn btn-outline-secondary btn-sm">camera</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 content-right align-items-center">
+                    <ul class="d-flex flex-nowrap align-items-center ps-0 mb-0">
+                        <li class="dropdown li1">
+                            <a class="btn dropdown-toggle d-flex align-items-center" href="#">
+                                <img src="https://flagcdn.com/w20/us.png" class="me-2 english w-100 d-block">
+                                <small>English</small>
+                            </a>
+                            <ul class="dropdown-menu shadow">
+                                <li><a class="dropdown-item d-flex align-items-center" href="#"><img
+                                            src="https://flagcdn.com/w20/es.png" class="me-2"> Español</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#"><img
+                                            src="https://flagcdn.com/w20/fr.png" class="me-2"> Français</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#"><img
+                                            src="https://flagcdn.com/w20/pt.png" class="me-2"> Português</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn dropdown-toggle d-flex align-items-center" href="#"><small>USD</small></a>
+                            <ul class="dropdown-menu shadow">
+                                <li><a class="dropdown-item" href="#">EUR</a></li>
+                                <li><a class="dropdown-item" href="#">BRL</a></li>
+                            </ul>
+                        </li>
+                        <li class="d-flex align-items-center"><span class="user"><i
+                                    class="fa-regular fa-user me-2"></i></span> <small class="fw-bold">Accound</small>
+                        </li>
+                        <li class="position-relative d-inline-block p-2">
+                            <i class="fa-regular fa-heart love"></i>
+                            <div class="position-absolute top-0 end-0 bg-danger rounded-circle zero">0</div>
+                        </li>
+                        <li class="position-relative d-inline-block p-2">
+                            <i class="fa-regular fa-truck bus"></i>
+                            <div class="position-absolute top-0 end-0 bg-danger rounded-circle zero">0</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+    </header>
+
+    <nav class="nav1">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 content-left px-0">
+                    <div class="menu-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar">
+                        <span class="me-2">☰</span> <small>SHOP BY CATEGORIES</small>
+                    </div>
+
+                    <div class="offcanvas offcanvas-start" id="offcanvasSidebar">
+                        <div class="offcanvas-header bg-dark text-light py-0">
+                            <div class="bg-dark text-light p-3"><span class="setting me-2">☰</span> SHOP BY CATEGORIES
+                            </div>
+                        </div>
+                        <div class="offcanvas-body bg-light">
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-block" href="#">
+                                <span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                    class="span-sidebar">Category 2</span>
+                            </a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                            <a class="text-dark d-block" href="#"><span class="icon-sidebar me-2"><i
+                                        class="fa-regular fa-bookmark"></i></span><span class="span-sidebar">Category
+                                    4</span></a>
+                            <a class="text-dark d-flex justify-content-between align-items-center" href="#">
+                                <div><span class="icon-sidebar me-2"><i class="fa-regular fa-bookmark"></i></span><span
+                                        class="span-sidebar">Category 2</span></div><i
+                                    class="fa-solid fa-angle-right icon-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 content-right d-flex align-items-center justify-content-between px-0">
+                    <div class="box-left">
+                        <ul class="d-flex align-items-center mb-0">
+                            <li class="dorpdown">
+                                <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Homepages</small>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                            <li class="dorpdown">
+                                <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Homepages</small>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                            <li class="dorpdown">
+                                <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Homepages</small>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                            <li class="dorpdown">
+                                <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Pages</small>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                            <li class="me-4 text-nowrap"><a class="unique text-dark" href="contact.html"><small>Contact
+                                        us</small></a></li>
+                            <li class="me-4"><small>Blog</small></li>
+                            <li class="dorpdown">
+                                <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Best
+                                    Discount</small>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-right d-flex align-items-center">
+                        <div class="dorpdown m-0 boxo">
+                            <small class="dropdown-toggle border-0 me-3" data-bs-toggle="dropdown">Recently
+                                viewed</small>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section1">
+        <div id="myCarousel" class="carousel slide p-0" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row bg-danger d-flex align-items-center justify-content-center text-light">
+                        <div class="col-6 content-left bg-danger">
+                            <p>Limited time offer</p>
+                            <h1 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
+                            <button class="btn btn-light">SHOP NOW</button>
+                        </div>
+                        <div class="col-5 image bg-danger">
+                            <img src="css/images/man.png" class="d-block w-100" alt="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row bg-primary d-flex align-items-center justify-content-center text-light">
+                        <div class="col-6 content-left bg-primary">
+                            <p>Limited time offer</p>
+                            <h1 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
+                            <button class="btn btn-light">SHOP NOW</button>
+                        </div>
+                        <div class="col-5 image d-flex align-items-center bg-primary">
+                            <img src="css/images/car.png" class="d-block w-100" alt="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row bg-info d-flex align-items-center justify-content-center text-light">
+                        <div class="col-6 content-left bg-info">
+                            <p>Limited time offer</p>
+                            <h1 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
+                            <button class="btn btn-light">SHOP NOW</button>
+                        </div>
+                        <div class="col-5 image bg-info">
+                            <img src="css/images/man2.png" class="d-block w-100 h-100" alt="2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="nav2 pb-3">
+        <div class="container">
+            <div class="boxs row mt-5">
+                <div class="box row w-25 align-items-center justify-content-center py-2 col">
+                    <i class="fa-regular fa-thumbs-up col-3 icon text-color1"></i>
+                    <p class="col m-0"><span class="fw-bold">Quality Gurantee</span><br><span class="text-color1">We
+                            Guarantee Our Products</span></p>
+                </div>
+                <div class="box row w-25 align-items-center py-2 col">
+                    <i class="fa-regular fa-thumbs-up col-3 icon text-color1"></i>
+                    <p class="col m-0"><span class="fw-bold">Quality Gurantee</span><br><span class="text-color1">We
+                            Guarantee Our Products</span></p>
+                </div>
+                <div class="box row w-25 align-items-center py-2 col">
+                    <i class="fa-regular fa-thumbs-up col-3 icon text-color1"></i>
+                    <p class="col m-0"><span class="fw-bold">Quality Gurantee</span><br><span class="text-color1">We
+                            Guarantee Our Products</span></p>
+                </div>
+                <div class="box row w-25 align-items-center py-2 col">
+                    <i class="fa-regular fa-thumbs-up col-3 icon text-color1"></i>
+                    <p class="col m-0"><span class="fw-bold">Quality Gurantee</span><br><span class="text-color1">We
+                            Guarantee Our Products</span></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section2 pt-5">
+        <div class="container">
+            <div class="head d-flex justify-content-between">
+                <h3 class="fw-bold">Don't miss this week's sales</h3>
+                <p><span>See All Products</span></p>
+            </div>
+            <div class="owl-carousel mt-4">
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/clock.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/korce.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/Air_Coolers.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/marwaha.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/komoteno.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img class="w-75" src="css/images/Air_Coolers.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                        <div class="rating text-dark">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="row">
+                <div class="content-left col-6 position-relative fw-bold">
+                    <div class="content-body-left position-absolute text-light p-3">
+                        <small>DESIGN BY COZY</small>
+                        <h2 class="my-2 h1">Modern Mini Couch</h2>
+                        <small>51 Inches Loveseat Sofa</small><br>
+                        <button type="submit" class="mt-4 p-2 px-3 fw-bold text-light rounded-2 h6">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="content-right col ps-0">
+                    <div
+                        class="box d-flex justify-content-center align-items-center bg-secondary-subtle h-50 position-relative">
+                        <div class="box-left ps-4 mt-4">
+                            <h2 class="fw-bold">Plant Pots<br> Only <span>$14.00</span></h2>
+                            <small>Don't miss the opportunity...</small>
+                            <button type="submit" class="mt-4 p-2 px-3 fw-bold rounded-2 h6 button1">SHOP NOW</button>
+                        </div>
+                        <div class="box-right">
+                            <img class="w-100" src="css/images/komoteno.png">
+                            <p
+                                class="position-absolute rounded-circle h4 d-flex align-items-center justify-content-center">
+                                -30%</p>
+                        </div>
+                    </div>
+                    <div class="box d-flex justify-content-center align-items-center h-50 text-light bg-secondary">
+                        <div class="box-left ps-4 mt-4">
+                            <small>NEW ARRIVALS</small>
+                            <h2 class="fw-bold">Romina<br> Table Lamp</h2>
+                            <small>Creates gentle elegance</small>
+                            <button type="submit" class="mt-4 p-2 px-3 fw-bold rounded-2 h6 button2">SHOP NOW</button>
+                        </div>
+                        <div class="box-right">
+                            <img class="w-100" src="css/images/marwaha.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4 mb-5">
+        <div class="container">
+            <div class="content text-center position-relative">
+                <h3 class="pb-5">Cyber Weekend</h3>
+                <h4 class="fw-bold pt-5">SALE OFF</h4>
+                <div class="overflow position-absolute w-100">
+                    <div class="row justify-content-evenly">
+                        <span
+                            class="col-1 span rounded-circle align-self-center d-flex justify-content-center align-items-center h4 fw-bold">+10%<br>OFF</span>
+                        <span
+                            class="col-1 span rounded-circle align-self-center d-flex justify-content-center align-items-center h4 fw-bold">+20%<br>OFF</span>
+                        <span
+                            class="col-1 span rounded-circle align-self-center d-flex justify-content-center align-items-center h4 fw-bold">+30%<br>OFF</span>
+                        <span
+                            class="col-1 span rounded-circle align-self-center d-flex justify-content-center align-items-center h4 fw-bold">+40%<br>OFF</span>
+                        <span
+                            class="col-1 span-last rounded-circle align-self-center d-flex justify-content-center align-items-center h4 fw-bold">+50%<br>OFF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5 mb-5">
+        <div class="container">
+            <h3 class="fw-bold mb-4 content text-center">New Arrivals</h3>
+            <div class="cards row mt-4 justify-content-between">
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/clock.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/korce.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/Air_Coolers.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/marwaha.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/komoteno.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cards row justify-content-between">
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/clock.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/korce.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/Air_Coolers.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/marwaha.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image card-img-top d-flex justify-content-center align-items-center position-relative">
+                        <img src="css/images/komoteno.png">
+                        <span class="position-absolute text-light fw-bold span1">-33%</span>
+                        <div class="overflow position-absolute">
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Wishlist"><i class="fa-regular fa-heart"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Compare"><i class="fa-solid fa-magnifying-glass"></i>
+                            </p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Quick View"><i class="fa-regular fa-truck"></i></p>
+                            <p class="d-flex justify-content-center align-items-center" data-bs-toggle="tooltip"
+                                data-bs-placement="left" title="Add to card"><i class="fa-regular fa-star"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body pt-0 px-1">
+                        <p class="card-text mb-1"><a class="text-dark" href="#">14 inch Fasion Simplicity<br>
+                                Quality
+                                Wall Clock home
+                                Decor/</a></p>
+                        <span class="d-inline-block mb-2 me-1 text-dark">$50</span><small
+                            class="text-color1"><del>$75</del></small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><a class="d-inline-block mt-3 text-dark a" href="#"><small class=>See All Products</small></a></div>
+        </div>
+    </section>
+
+    <section class="section6">
+        <div class="container">
+            <div class="content d-flex">
+                <div class="content-left fw-bold row justify-content-between align-items-center g-0 w-50">
+                    <div class="box-left col-8">
+                        <h3 class="text-nowrap">Earn Cash Back For The Things<br> You Buy Every Where</h3>
+                        <p><small>Application via Merto. <span>Terms & Conditions</span>.</small></p>
+                    </div>
+                    <div class="box-right col-3 p-0">
+                        <button type="submit" class="bg-success text-light rounded"><small>VIEW MORE</small></button>
+                    </div>
+                </div>
+                <div class="content-right w-50">
+                    <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/payments-2-1.png"
+                        class="img-fluid d-block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section7 mb-4">
+        <div class="container">
+            <h3 class="text-center fw-bold mb-4">Shop by Department</h3>
+            <div class="boxs d-flex justify-content-between mt-1">
+                <div class="box text-center fw-bold">
+                    <div class="image rounded-circle d-flex justify-content-center">
+                        <img class="d-block w-75" src="css/images/clock.png">
+                    </div>
+                    <p class="my-3 coffe">Coffee Table from $20</p>
+                    <a class="a pb-1 text-dark" href="#"><small>Shop now <span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span></small></a>
+                </div>
+                <div class="box text-center fw-bold">
+                    <div class="image rounded-circle d-flex justify-content-center">
+                        <img class="d-block w-75" src="css/images/marwaha.png">
+                    </div>
+                    <p class="my-3 coffe">Coffee Table from $20</p>
+                    <a class="a pb-1 text-dark" href="#"><small>Shop now <span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span></small></a>
+                </div>
+                <div class="box text-center fw-bold">
+                    <div class="image rounded-circle d-flex justify-content-center">
+                        <img class="d-block w-75" src="css/images/korce.png">
+                    </div>
+                    <p class="my-3 coffe">Coffee Table from $20</p>
+                    <a class="a pb-1 text-dark" href="#"><small>Shop now <span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span></small></a>
+                </div>
+                <div class="box text-center fw-bold">
+                    <div class="image rounded-circle d-flex justify-content-center">
+                        <img class="d-block w-75" src="css/images/Air_Coolers.png">
+                    </div>
+                    <p class="my-3 coffe">Coffee Table from $20</p>
+                    <a class="a pb-1 text-dark" href="#"><small>Shop now <span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span></small></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section8 my-5">
+        <div class="container pt-5">
+            <div class="content d-flex justify-content-between">
+                <div class="image posuition-relative">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-1.jpg"></a>
+
+                </div>
+                <div class="image">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-2-200x80.jpg"></a>
+                </div>
+                <div class="image">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-3.jpg"></a>
+                </div>
+                <div class="image">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-4.jpg"></a>
+                </div>
+                <div class="image">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-5.jpg"></a>
+                </div>
+                <div class="image">
+                    <a href="#"><img class="w-100 d-block"
+                            src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-brand-6.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-5 bg-dark text-light">
+        <div class="container">
+            <div class="content-top row">
+                <div class="content-left col-3">
+                    <div class="logo position-relative">
+                        <h1>Merto</h1>
+                        <span class="position-absolute shap-logo"></span>
+                    </div>
+                    <div class="box row mt-3">
+                        <i class="col-2 fa-solid fa-location-dot h5 me-1 text-color1"></i>
+                        <p class="col text-color1">29 SE 2nd Ave, Miami<br>Florida 33131, Uniited States</p>
+                    </div>
+                    <div class="box row">
+                        <i class="fa-solid fa-envelope h5 me-1 text-color1"></i>
+                        <p class="col text-color1">info@example.com</p>
+                    </div>
+                    <h4>(+92) 3942 7879</h4>
+                </div>
+                <div class="col-6">
+                    <table class="w-100">
+                        <tr>
+                            <td class="td1 fw-semibold">SHOPPING</td>
+                            <td class="td1 fw-semibold">INFOMATION</td>
+                            <td class="td1 fw-semibold">ACCOUNT</td>
+                        </tr>
+                        <tr>
+                            <td>Shop by Brand</td>
+                            <td>Shipping & Returns</td>
+                            <td>My account</td>
+                        </tr>
+                        <tr>
+                            <td>hello</td>
+                            <td>youssef</td>
+                            <td>mohamed</td>
+                        </tr>
+                        <tr>
+                            <td>track order</td>
+                            <td>Help</td>
+                            <td>Wishlist</td>
+                        </tr>
+                        <tr>
+                            <td>Size Guide</td>
+                            <td>Gift Cards</td>
+                            <td>Affiliate program</td>
+                        </tr>
+                        <tr>
+                            <td>Size Guide</td>
+                            <td>Gift Cards</td>
+                            <td>Affiliate program</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="content-right col-3 p-0">
+                    <h4>Let's Keep in touch</h4>
+                    <form class="row rounded-2 mt-4 p-2 w-100">
+                        <input class="col-9 bg-dark border-0" type="email" name="email"
+                            placeholder="enter your email address" required>
+                        <button class="col-3 bg-dark text-light border-0 text-end p-0" type="submit"><i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="icons mt-4">
+                        <span class="h5 me-2"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="h5 me-2"><i class="fa-brands fa-facebook-messenger"></i></span>
+                        <span class="h5 me-2"><i class="fa-brands fa-x-twitter"></i></span>
+                        <span class="h5 me-2"><i class="fa-brands fa-youtube"></i></span>
+                        <span class="h5 me-2"><i class="fa-brands fa-tiktok"></i></span>
+                    </div>
+                </div>
+                <div class="content-center d-flex justify-content-center p-3 mt-4">
+                    <div class="box2 row">
+                        <span class="col-1 h4 m-0 me-2"><i class="fa-solid fa-phone"></i></span>
+                        <p class="col m-0"><span class="fw-bold">Didn't find what you were looking for?</span><br><a class="d-inline-block mb-2 text-light afooter" href="#"><small>Contact Us</small></a></p>
+                    </div>
+                    <div class="box2 row mx-2">
+                        <span class="col-1 h4 m-0 me-2"><i class="fa-solid fa-phone"></i></span>
+                        <p class="col m-0"><span class="fw-bold">Didn't find what you were looking for?</span><br><a class="d-inline-block mb-2 text-light afooter" href="#"><small>Contact Us</small></a></p>
+                    </div>
+                    <div class="box2 row">
+                        <span class="col-1 h4 m-0 me-2"><i class="fa-solid fa-phone"></i></span>
+                        <p class="col m-0"><span class="fw-bold">Didn't find what you were looking for?</span><br><a class="d-inline-block mb-2 text-light afooter" href="#"><small>Contact Us</small></a></p>
+                    </div>
+                </div>
+                <div class="content-bottom d-flex justify-content-between py-5">
+                    <p class="text-color1">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p>
+                        <i class="fa-brands fa-cc-paypal fa-2x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+                        <i class="fa-brands fa-cc-visa fa-2x"></i>
+                        <i class="fa-brands fa-cc-discover fa-2x"></i>
+                        <i class="fa-brands fa-cc-jcb fa-2x"></i>
+                        <i class="fa-brands fa-cc-amazon-pay fa-2x"></i>
+                        <i class="fa-brands fa-cc-amex fa-2x"></i>
+                    </p>
+                </div>
+            </div>
+    </footer>
+
+    <a id="arrow"
+        class="aa position-fixed bottom-0 end-0 mb-2 me-2 bg-dark d-flex justify-content-center align-items-center text-light rounded fw-bold"
+        href="#header"><i class="fa-solid fa-up-long"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

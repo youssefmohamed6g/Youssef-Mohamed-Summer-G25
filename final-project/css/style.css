@@ -1,0 +1,687 @@
+/* reset style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/*----------------global style-----------------*/
+.containerr {
+  width: 95%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-color1 {
+  color: rgb(132, 132, 132);
+}
+
+.dropdown-menu {
+  height: 500px;
+  overflow: auto;
+}
+
+.dropdown-item:hover {
+  background-color: inherit;
+  color: rgb(207, 38, 38);
+}
+
+.shap-logo {
+  height: 6px;
+  width: 25px;
+  background-color: rgb(193, 49, 49);
+  top: 11.5px;
+  left: 56px;
+}
+
+/*----------------custom style-----------------*/
+header .logo h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+header .telephone {
+  font-size: 40px;
+}
+
+header .body-tel {
+  font-size: 14px;
+}
+
+header .content-body-right .unique {
+  border-right: 2px solid rgb(201, 201, 201);
+}
+
+header .content-body-right .input {
+  width: 47%;
+}
+
+header .content-right .input-group input:focus {
+  outline: none;
+}
+
+header .li1 {
+  width: 27%;
+}
+
+header .content-right .dropdown:hover , header .content-right .dropdown .dropdown-menu a:hover {
+  color: rgb(218, 20, 20);
+}
+
+header .content-right .dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+
+header .user,
+header .love,
+header .bus {
+  font-size: 20px;
+}
+
+header .zero {
+  font-size: 12px;
+  width: 18px;
+  aspect-ratio: 1/1;
+  color: white;
+  text-align: center;
+}
+
+header .dropdown-menu {
+  height: auto;
+}
+
+/*----------------nav1----------------------*/
+
+.nav1 .menu-btn {
+  cursor: pointer;
+  padding: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.nav1 .menu-btn:hover,
+.nav1 ul li:hover,
+.nav1 .box-right .boxo:hover,
+.nav1 .unique:hover {
+  color: rgb(205, 26, 26) !important;
+  cursor: pointer;
+}
+
+.nav1 .offcanvas-body a:hover .span-sidebar {
+  border-bottom: 2px solid;
+}
+
+.nav1 .offcanvas-body a {
+  padding: 12px;
+  font-size: 15px;
+  border-bottom: 2px solid rgb(225, 224, 224);
+}
+
+.nav1 .icon-right {
+  font-size: 12px;
+  color: rgb(197, 197, 197);
+}
+
+.nav1 .offcanvas-body a:hover .icon-right {
+  color: rgb(113, 113, 113);
+}
+
+.nav1 li:hover .dropdown-menu,
+.nav1 .boxo:hover .dropdown-menu {
+  display: block !important;
+}
+
+/*================section1=========================*/
+.section1 .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.section1 .carousel-indicators .active {
+  background-color: rgb(255, 255, 255);
+}
+
+.section1 .content-left button:hover {
+  background-color: inherit;
+  color: white;
+}
+
+.section1 .image {
+  height: 570px;
+}
+
+/*-----------------nav2----------------------*/
+.nav2 .icon {
+  font-size: 50px;
+  transition-duration: .3s;
+}
+
+.nav2 .box:hover .icon {
+  color: black;
+}
+
+/*------------section2-----------------*/
+.section2 .head span {
+  border-bottom: 2px solid;
+}
+
+.section2 .head span:hover {
+  border-bottom-style: dashed;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  display: none;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.owl-carousel:hover .owl-nav {
+  display: flex;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  width: 2.5%;
+  height: 45px;
+  box-shadow: 3px 0 3px 2px rgba(242, 242, 242, 0.859);
+  transition-duration: .5s;
+}
+
+.owl-nav .owl-next {
+  box-shadow: -3px 0 3px 2px rgba(242, 242, 242, 0.859);
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: black !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.section2 .card {
+  transition-duration: .3s;
+}
+
+.section5 .card {
+  width: 20%;
+  transition-duration: .3s;
+}
+
+.section2 .card:hover,
+.section5 .card:hover {
+  box-shadow: 0 0 6px 2px rgb(205, 205, 205);
+  z-index: 100;
+}
+
+.section2 .card:hover .overflow,
+.section5 .card:hover .overflow {
+  top: 10% !important;
+  display: block;
+}
+
+.section2 .image,
+.section5 .image {
+  height: 250px;
+}
+
+.section2 img,
+.section5 img {
+  width: 80%;
+}
+
+.section2 .span1,
+.section5 .span1 {
+  top: 7%;
+  left: 3%;
+  background-color: rgb(162, 42, 42);
+  padding: 1%;
+  font-size: 14px;
+}
+
+.section2 .overflow,
+.section5 .overflow {
+  top: 15%;
+  right: 5%;
+  font-size: 18px;
+  display: none;
+
+}
+
+.section2 .overflow p,
+.section5 .overflow p {
+  background-color: rgb(245, 245, 245) !important;
+  height: 30px;
+  aspect-ratio: 1/1;
+
+}
+
+.section2 .overflow p:hover,
+.section5 .overflow p:hover {
+  background-color: rgb(8, 8, 8) !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.tooltip-inner {
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+/*------------section3-----------------*/
+.section3 {
+  margin: 5% 0;
+}
+
+.section3 .content-left {
+  background-image: url(../css/images/sofra.jpg);
+  background-size: 160%;
+  height: 600px;
+  transition-duration: .5s;
+}
+
+.section3 .content-left:hover {
+  background-size: 170%;
+}
+
+.section3 .content-body-left {
+  top: 12%;
+  left: 7%;
+}
+
+.section3 .content-body-left h2 {
+  font-weight: 700;
+}
+
+.section3 .content-body-left button,
+.section3 .button2 {
+  background-color: inherit;
+  border: solid rgb(239, 239, 239);
+}
+
+.section3 .content-body-left button:hover,
+.section3 .button2:hover {
+  background-color: white !important;
+  color: rgb(17, 17, 17) !important;
+}
+
+.section3 .box-left,
+.section3 .box-right {
+  width: 40%;
+}
+
+.section3 .box-left span {
+  border-bottom: 2px solid;
+}
+
+.section3 .box-left .button1:hover {
+  background-color: rgb(10, 10, 10);
+  color: rgb(235, 235, 235);
+}
+
+.section3 .box img {
+  transition-duration: .5s;
+}
+
+.section3 .box:hover img {
+  width: 110% !important;
+}
+
+.section3 .box-right p {
+  top: 8%;
+  right: 8%;
+  background-color: rgb(170, 43, 43);
+  width: 12%;
+  aspect-ratio: 1/1;
+
+}
+
+/*------------section4-----------------*/
+.section4 h3 {
+  font-weight: 600;
+}
+
+.section4 h4 {
+  font-size: 140px;
+  color: rgb(244, 244, 244);
+  transition-duration: .5s;
+}
+
+.section4 h4:hover {
+  transform: translateY(12px);
+
+}
+
+.section4 .overflow {
+  top: 0;
+  padding-top: 6%;
+  padding-left: 13%;
+  padding-right: 13%;
+  cursor: pointer;
+}
+
+.section4 .overflow span {
+  display: inline-block;
+  width: 12%;
+  aspect-ratio: 1/1;
+}
+
+.section4 .overflow .span,
+.section4 .overflow .span-last {
+  background-color: white;
+  border: 2px solid rgb(172, 25, 25);
+  color: rgb(172, 25, 25);
+  transition-duration: .5s;
+}
+
+.section4 .overflow .span:hover {
+  background-color: rgb(241, 227, 227);
+  border-color: rgb(241, 240, 227);
+  transform: translateY(-5px);
+}
+
+.section4 .overflow .span-last {
+  color: rgb(237, 237, 237);
+  background-color: rgb(172, 25, 25);
+}
+
+.section4 .overflow .span-last:hover {
+  transform: translateY(-5px);
+}
+
+/*------------section5-----------------*/
+.a , .aaa , .afooter{
+  position:relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.a:hover{
+  color: rgb(213, 23, 23) !important;
+}
+.aaa::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 8px;
+}
+.a::after , .aaa::after , .afooter::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  right: 0;
+  bottom: 0;
+}
+.afooter::after{
+  background-color: white;
+}
+.a:hover::after , .aaa:hover::after , .afooter:hover::after{
+  background-color: rgb(213, 23, 23);
+  animation-name: ao;
+  animation-duration: .5s;
+}
+ @keyframes ao {
+  0%{
+  width: 100%;
+  }
+  20%{
+    width: 50%;
+  }
+  40%{
+    width: 0%;
+    left: auto;
+  }
+  60%{
+    width: 0%;
+    left: 0;
+  }
+  80%{
+    width: 50%;
+    left: 0;
+  }
+  100%{
+    width: 100%;
+    left: 0;
+  }
+ }
+ .afooter:hover::after{
+  background-color: rgb(231, 218, 218);
+ }
+ .aaa:hover::after{
+  background-color: rgb(17, 17, 17);
+ }
+/*------------section6-----------------*/
+.section6 {
+  margin: 5% 0;
+}
+
+.section6 .container {
+  background-color: rgba(0, 255, 0, 0.144);
+  padding: 0 2%;
+}
+
+.section6 h3,
+.section6 button {
+  font-weight: 600;
+}
+
+.section6 button {
+  padding: 8% 16%;
+  border: solid green;
+  background-color: green;
+  transition-duration: .5s;
+}
+
+.section6 p {
+  color: rgb(72, 72, 72);
+}
+
+.section6 p span {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.section6 p span:hover {
+  border-bottom-style: dashed;
+}
+
+.section6 button:hover {
+  background-color: white !important;
+  color: green !important;
+}
+
+/*-----------------section7-----------------*/
+.section7 .box {
+  width: 23%;
+}
+
+.section7 .image {
+  background-color: rgba(237, 237, 237, 0.83);
+  aspect-ratio: 1/1;
+
+}
+
+.section7 .image:hover {
+  cursor: pointer;
+  animation-name: imgo;
+  animation-duration: .7s;
+}
+
+@keyframes imgo {
+  0% {
+    transform: translateX(0px);
+  }
+
+  20% {
+    transform: translateX(5px);
+  }
+
+  40% {
+    transform: translateX(-5px);
+  }
+
+  60% {
+    transform: translateX(3px);
+  }
+
+  80% {
+    transform: translateX(-3px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.section7 .image img {
+  object-fit: contain;
+}
+
+.section7 .coffe {
+  color: rgba(26, 26, 26, 0.914);
+}
+
+/*------------section8-----------------*/
+.section8 .container {
+  border-top: 1px solid rgb(220, 220, 220);
+}
+
+.section8 .image {
+  width: 15%;
+  transition-duration: .5s;
+}
+
+.section8 img {
+  transition-duration: .5s;
+}
+
+.section8 .image:hover {
+  filter: grayscale(1);
+}
+
+.section8 img:hover {
+  filter: opacity(.7);
+}
+
+/*------------section9-----------------*/
+.section9,
+.section10 {
+  padding-top: 5%;
+}
+
+.section9 h6 span {
+  border-bottom: 1px solid rgb(34, 34, 34);
+
+}
+
+.section9 h6 span:hover {
+  border-bottom-style: dashed;
+  cursor: pointer;
+}
+
+.section9 .icons small:hover {
+  color: rgb(180, 30, 30);
+  cursor: pointer;
+}
+
+/*------------section10-----------------*/
+.section10 .content {
+  margin: 0% auto;
+}
+
+.section10 input {
+  display: block;
+  border-radius: 3px;
+  background-color: rgb(228, 228, 228);
+  padding: 1% 2%;
+  outline: none;
+}
+
+.section10 .form-top input , .section10 .form-top-hidde p{ 
+  width: 48%;
+}
+
+.section10 textarea {
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 228);
+}
+
+.section10 form,
+.section10 .unique,
+.section10 textarea{
+  margin-top: 3%;
+}
+.section10 button{
+  transition-duration: .5s;
+}
+.section10 button:hover{
+  background-color: rgb(225, 15, 15) !important;
+}
+
+/*------------footer-----------------*/
+footer .shap-logo {
+  height: 3px;
+  width: 20px;
+  background-color: rgb(193, 49, 49);
+  top: 8px;
+  left: 35.5px;
+}
+
+footer td {
+  padding-bottom: 3%;
+  font-size: 14px;
+}
+
+footer .td1 {
+  padding-bottom: 4%;
+}
+
+footer form {
+  border: 1px solid rgb(118, 118, 118);
+}
+
+footer button:hover,
+footer table tr:not(:first-child) td:hover,
+footer .icons span:hover {
+  color: rgb(192, 28, 28) !important;
+  cursor: pointer;
+}
+
+footer input:focus {
+  outline: none;
+  color: rgb(245, 244, 244);
+}
+
+footer .content-center {
+  border: 1px solid rgb(69, 69, 69);
+}
+
+
+
+/*--------------------aroooooooooooooooooow--------------------*/
+.aa {
+  width: 2.5%;
+  aspect-ratio: 1/1;
+  transition-duration: .3s;
+}
+
+.aa:hover {
+  transform: scale(1.1);
+}
